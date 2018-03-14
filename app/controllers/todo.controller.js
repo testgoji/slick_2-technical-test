@@ -6,7 +6,7 @@ exports.create = function(req, res) {
         return res.status(400).send({message: "Task can not be empty"});
     }
 
-    var todo = new Todo({title: req.body.title || "Untitled Task", complete: false});
+    var todo = new Todo({title: req.body.title, complete: false});
 
     todo.save(function(err, data) {
         if(err) {
@@ -66,7 +66,7 @@ exports.update = function(req, res) {
         }
 
         todo.title = req.body.title;
-        todo.content = req.body.content;
+        todo.complete = req.body.complete;
 
         todo.save(function(err, data){
             if(err) {
