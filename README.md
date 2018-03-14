@@ -24,7 +24,6 @@ Congratulations on getting thus far!
 	- If the `.gitignore` file does not exist, you will need to create it. 
 16. Edit first file (named your **first name**) and do the following. 
 	- > Write a program that **prints** the numbers from 1 to 100. If it’s a multiple of 3, it should print “Fizz”. If it’s a multiple of 5, it should print “Buzz”. If it’s a multiple of 3 and 5, it should print “Fizz Buzz”.
-	- > Write a program that **prints** the first 15 integers in the Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13...) using only **two** variables (not including a for loop incrementing variable).
 17. Stage the change(s).
 18. Commit the change(s).
 19. Push the change(s).
