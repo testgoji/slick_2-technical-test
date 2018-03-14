@@ -1,0 +1,8 @@
+{
+  "/todo/**": {
+    "target": "http://localhost:4200/",
+    "pathRewrite": {
+      "^/todo": ""
+    }
+  }
+}
