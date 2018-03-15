@@ -1,0 +1,10 @@
+input.todoTitle{
+  margin-left:48px;
+  padding:8px;
+  font-size:14px;
+  font-weight:bold;
+  border:0;
+  color:#444444;
+  width:80%;
+  line-height:48px;
+}

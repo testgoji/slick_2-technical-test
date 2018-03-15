@@ -1,0 +1,5 @@
+<div class="view">
+  <input class="toggle" type="checkbox" (click)="toggleTodoComplete(todo)" [checked]="todo.complete">
+  <input class="todoTitle" type="text" [value]="todo.title" (input)="todo.title = $event.target.value">
+  <button class="destroy" (click)="removeTodo(todo)"></button>
+</div>
